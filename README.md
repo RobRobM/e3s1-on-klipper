@@ -19,6 +19,8 @@ I hope these files help getting started with klipper on your Ender 3 S1. Even if
 
 Thanks to all and happy printing!
 
+I also started using Super Slicer which has been working great.
+https://github.com/supermerill/SuperSlicer
 
 ## Documentation:
 - https://www.klipper3d.org/

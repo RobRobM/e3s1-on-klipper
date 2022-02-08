@@ -65,4 +65,15 @@ I also lowered the first layer speed to 15 and first layer infill to 25 in super
 
 First layer problems have been solved since these steps.
 
+### Presure advance
+Per spool it is recommended to run the presure advance calibration steps.
+https://www.klipper3d.org/Pressure_Advance.html/
+
+If you use Super Slicer you can set the presure advance value in the "Custom G-code" of the "Filament settings" of that filament. Slicing with the right filament will set the right presure advance value.
+
+### Resonance Compensation (Input Shaper)
+https://www.klipper3d.org/Resonance_Compensation.html
+
+I highly recommend you run a manual (printing and measuring) calibration or measure with an accelerometer. To get the fastest and best prints.
+
 These steps above have led me to easy beautiful prints for a week straight

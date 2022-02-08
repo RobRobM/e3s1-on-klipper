@@ -15,4 +15,4 @@ A lot of the printer.cfg and macros and here comes from or was created with help
 
 I hope these files help getting started with klipper on your Ender 3 S1. Even if it is just one person.
 
-Thanks to all!
+Thanks to all and happy printing!

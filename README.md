@@ -26,8 +26,18 @@ Thanks to all and happy printing!
 - https://3dprintbeginner.com/how-to-install-klipper-on-ender-3-s1/
 
 ## Steps after installing klipper and Fluidd/Mainsail
-Follow all steps for probe calibration first. https://www.klipper3d.org/Probe_Calibrate.html So you can set the offset of the crtouch and nozzle in the printer.cfg
 
+### Calibrate/ calculate rotational distance
+https://www.klipper3d.org/Rotation_Distance.html
+
+For this I heated the nozzle so I could unscrew it. Removed filament. Turned of the heat. Made a fresh cut in the filament and re-inserted it and moved it by hand all the way though the extruder. Marked the filament at the extruder entrance and extruded according to the link above. And marked again. Measure and calculate your new rotational distance. Heat the extruder again and put the nozzle back on.
+
+### probe calibration
+https://www.klipper3d.org/Probe_Calibrate.html
+
+To set the offset of the crtouch and nozzle in the printer.cfg
+
+### Bed leveling
 Get the bed as level as possible:
 In your printer.cfg in the [bed_mesh] section, set you mesh_min and max to your liking. 
 I tried to do the leveling the same spots the nozzle can reach. 
@@ -52,3 +62,5 @@ I have mashed together a start print gcode that runs the bed leveling calibratio
 I also lowered the first layer speed to 15 and first layer infill to 25 in super slicer.
 
 First layer problems have been solved since these steps.
+
+These steps above have led me to easy beautiful prints for a week straight

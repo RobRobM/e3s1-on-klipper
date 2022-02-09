@@ -34,7 +34,7 @@ https://www.klipper3d.org/Rotation_Distance.html
 
 For this I heated the nozzle so I could unscrew it. Removed filament. Turned of the heat. Made a fresh cut in the filament and re-inserted it and moved it by hand all the way though the extruder. Marked the filament at the extruder entrance and extruded according to the link above. And marked again. Measure and calculate your new rotational distance. Heat the extruder again and put the nozzle back on.
 
-### probe calibration
+### Probe calibration
 https://www.klipper3d.org/Probe_Calibrate.html
 
 To set the offset of the crtouch and nozzle in the printer.cfg

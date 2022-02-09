@@ -51,9 +51,11 @@ I set my probe count to 3, 3 for the fastest bed mesh calibration.
 
 Then I prepared to level the bed as much as possible. I turned the knobs all the way counterclockwise. Warmed the bed to 60° C
 Then at the tune page of Fluids I initiated calibrate. And tuned each corner a corner at a time to the exact same height 0.00something.
-After this I changed the probe count to 10,10 so the mesh is as accurate as possible.
+https://github.com/RobRobM/e3s1-on-klipper/blob/main/bed_mesh_after_leveling_3x3_probe_points.jpg
 
+After this I changed the probe count to 10,10 so the mesh is calculated as accurate as possible.
 Run the mesh calibration an save_config My mesh has a wavy form 🤔
+https://github.com/RobRobM/e3s1-on-klipper/blob/main/bed_mesh_after_leveling_10x10_probe_points.jpg
 
 Then calibrate the z-offset. https://www.klipper3d.org/Probe_Calibrate.html
 
